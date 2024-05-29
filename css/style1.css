@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');	
+    :root{
+        --main-color:#88888834;
+        --main-color2:#111375;
+        --nav:#59008d;
+        --font-color:#FFF;
+        --bold:#01aa94;
+        --hover-text: #000;
+        color: var(--font-color);
+        background-color: #1b1b1b;
+        font-family:'Poppins', sans-serif;
+    }
+
+    body{
+        margin: 0;
+        padding: 0;
+        font-weight: 300;
+        box-sizing: border-box;
+        overflow: hidden;
+        overflow-x: hidden;
+    }
+
+    b{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+
+    p{
+        position: relative;
+        margin-left: 6rem;
+    }
+
+    ul{
+        margin-left: 6rem;
+    }
+
+    .exp{
+        margin-top: 1%;
+        list-style-type:circle;
+        color: var(--bold);
+    }
+
+    .lie{
+        color: var(--font-color);
+    }
+
+    footer{
+        background-color: var(--nav);
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        padding: 0.7vh;
+    }
+
+    a{
+        cursor: pointer;
+    }
+
+    #menu{
+        text-align: center;
+
+    }
+    #menu ul{
+        margin: 0;
+        background-color: var(--nav);
+        list-style: none;
+    }
+    #menu ul li{
+        display: inline-block;
+    }
+    #menu ul li a{
+        padding: 10px 10px;
+        display: inline-block;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    #menu li a:hover{
+        border: 2px solid var(--bold);
+        background-color: #a7a7a770;
+        border-style: double;
+        border-radius: 5px;
+        border-width: 1px;
+        padding: 5px 10px 5px 8px;
+    }
+
+    #pagina-php{
+        border: none;
+        height: 88vh;
+        width: 100vw;
+    }
+
+    .inicio{
+        position: relative;
+        font-weight: 200;
+        text-align: center;
+        font-size: 2.7rem;
+        margin-top: 2vh;
+        color: #ffffff;
+    }
